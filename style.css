@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap'); */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url(./img/netflix-background-image.png); */
+}
+#container{
+    max-width: 1240px;
+    height: 1036;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    margin: auto;
+}
+#title {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+
+}
+span{
+    color: #ff0000;
+}
+
+#description{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+#header{
+    text-align: center;
+}
