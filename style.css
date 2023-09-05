@@ -5,15 +5,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    /* background-image: url(./img/netflix-background-image.png); */
-    color:#ffffff
+     background-image: url(./img/netflix-background-image.png);
+    color: #ffffff 
 }
 #container{
     max-width: 1240px;
-    height: 1036;
+    /* height: 1036; */
     background-color: rgba(0, 0, 0, 0.3);
     margin-top: 30px;
     margin: auto;
@@ -44,4 +45,34 @@ span{
    margin-bottom: 30px;
    background-color: rgba(0, 0, 0, 0.8)
 
+}
+
+#name, 
+#age, 
+#email, 
+#feedback {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+#checkbox, #radio {
+    margin-top: 40px; 
+}
+#feedback{
+    resize: none;
+    height: 91,46;
+}
+#form-button {
+    width: 160px;
+    height: 45px;
+    background: #ff0000;
+    border-radius: 50px;
+    border: none;
+    color: white;
+cursor: pointer;
 }
