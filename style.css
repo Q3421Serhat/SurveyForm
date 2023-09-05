@@ -9,6 +9,7 @@
 
 body{
     /* background-image: url(./img/netflix-background-image.png); */
+    color:#ffffff
 }
 #container{
     max-width: 1240px;
@@ -33,4 +34,14 @@ span{
 }
 #header{
     text-align: center;
+}
+
+#survey-form-container {
+  width: 500px;
+  height: 800px; 
+   margin: auto;
+   padding: 30 px 40px;
+   margin-bottom: 30px;
+   background-color: rgba(0, 0, 0, 0.8)
+
 }
