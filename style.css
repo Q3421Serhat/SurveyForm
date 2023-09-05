@@ -20,8 +20,7 @@ body{
 
 #container{
     max-width: 1240px;
-    /* height: 1036; */
-    
+     /* height: 1036;  */
     background-color: rgba(0, 0, 0, 0.3);
     margin: auto;
     margin-top: 30px;  
